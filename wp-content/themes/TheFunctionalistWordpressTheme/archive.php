@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
-                <h2><a href="<?php the_permalink(); ?>"><?php 
+                <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_date('','',''); ?>"><?php 
 				$title = get_the_title(); 
 				if (!$title) $title = '(untitled)';
 				echo $title;

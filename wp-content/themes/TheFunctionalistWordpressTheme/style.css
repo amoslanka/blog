@@ -15,8 +15,9 @@ Author URI: http://gregponchak.com/
 	body { background:#fff; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:18px; color:#444; }
 	blockquote { padding:0px 10px 0px 35px; margin:10px 10px 10px 0; background: transparent url(images/quote.jpg) no-repeat 0px 5px; font-style:italic;}
 	.clear { clear:both; float: none!important; }
-	h1, h2, h3, h4, h5 { font-size:14px; }
-	h2 a { font-size:18px; }
+	h1 { font-size: 18px; font-weight: normal; letter-spacing: 1px; }
+	h2, h3, h4, h5 { font-size:14px; }
+	h1, h2 a { font-size:18px; }
 	p { margin:10px 0; }
 	small { font-size:10px; }
 	.spacer { padding-top:50px; }
@@ -36,11 +37,11 @@ Author URI: http://gregponchak.com/
 	}post { margin-bottom:1.75em; }
 	
 	/*Logo*/
-	#title { position:relative;width:inherit; }
-	#title a { background:#222;padding:2px 0;color:#eee;float:left;font-size:12px;line-height:18px; }
-	#title a:hover { color:#eee;text-decoration:none; }
-	#title #titleright { background:url(right.jpg) no-repeat;height:22px;width:5px;float:left;display:block; }
-	#title #titleleft { background:url(left.jpg) no-repeat;height:22px;width:5px;float:left;display:block; }
+	#title { position:relative; width:inherit; height:28px; margin-bottom:8px; }
+	#title a { background:#222; padding:0px 5px 3px 5px; color:#eee; float:left; }
+	#title a:hover { color:#eee; text-decoration:none; }
+	#title #titleright { background:url(images/title_right.jpg) no-repeat; height:inherit; width:5px;float:left;display:block; }
+	#title #titleleft { background:url(images/title_left.jpg) no-repeat; height:inherit; width:5px;float:left;display:block; }
 	.divider { height:3px; line-height:0px; margin:15px 0px;}
 	
 	/*Index and archive*/
@@ -60,6 +61,10 @@ Author URI: http://gregponchak.com/
 	ul#thePages li { display:inline; }
 	ul#thePages li a { padding:0 10px 0 0;float:left; }
 	
+	/* Flickr embeds and images */
+	.caption { line-height:1em; margin:3px 0; font-style: italic; }
+	.caption span.content { display:block; }
+	
 	/*hidden*/
 	.hidden { padding:10px;display:none; }
 	.hidden ul li { display:inline; }
@@ -73,15 +78,15 @@ Author URI: http://gregponchak.com/
 	ol.commentlist p { margin:0; }
 	#commentform p { font-size:11px;line-height:18px; }
 	.commentmetadata { display:none; }
-	#submitButton { width:50px;height:22px;background:url(submit.jpg) no-repeat;border:0;padding:0;margin:0; }
+	#submitButton { width:50px;height:22px;background:url(images/submit.jpg) no-repeat;border:0;padding:0;margin:0; }
 
 	/* Search */
-	#searchsubmit { width:50px;height:22px;background:url(search.jpg) no-repeat;border:0;padding:0;margin:0; }
-	#s { padding:2px 0; }
+	#searchsubmit { width:50px;height:22px;background:url(images/search.jpg) no-repeat;border:0;padding:0;margin:0; }
+	#s { padding:2px 0; float:left; margin-right:5px;}
 	
 	/* Footer */
 /*	#footer { border-top: 1px solid #999; background-color:#ccc;}*/
-	#footer, #footer a { color: #999; text-transform: lowercase;}
+	#footer, #footer a { color: #999; text-transform: lowercase; font-size:11px; }
 	#footer a { background-color:inherit; text-decoration:underline; }
 	#footer a:hover { color:#454545; }
 	#footer h2, #footer h3, #footer h4, #footer h5 { display:none; }

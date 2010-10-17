@@ -16,7 +16,7 @@
 	<div id="container">
             <div id="title">
                 <div id="titleleft"></div>
-                <a href="<?php bloginfo('url'); ?>"><?php bloginfo('title'); ?></a>
+                <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('title'); ?></a></h1>
                 <div id="titleright"></div>
             </div>
-			<div class="clear divider"></div>
+			<!-- <div class="clear divider"></div> -->

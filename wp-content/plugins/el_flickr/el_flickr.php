@@ -13,7 +13,7 @@ Version: 0.0.1
 Author URI: http://blog.elzapp.com/
 */
 
-function el_flickr_insert_image($atts){
+function el_flickr_insert_image($atts, $content){
     /**
      * This function gathers information about a flickr image, and complies with the
      * shortcode API in Wordpress.
@@ -113,8 +113,8 @@ EOT;
 	<img src="{$image[0]}" width="100%" alt="{$alt}" />
 	<div class="caption">
 		<span class="title"><a href="{$u[0]}">{$t[0]}</a></span> 
-    	<span class="author">by {$rn[0]} ( 
-    <a href="http://flickr.com/photos/{$uid[0]}">{$un[0]}</a> on flickr)</span>
+    	<span class="author">by {$rn[0]} (<a href="http://flickr.com/photos/{$uid[0]}">{$un[0]}</a> on flickr)</span>
+		<span class="content">{$content}</span>
 </div>
 </div>
 EOT;

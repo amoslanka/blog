@@ -64,9 +64,9 @@ class Example_Widget extends WP_Widget {
 
 	function widget($args, $instance) {
 		// outputs the content of the widget
-		echo '<li><a href="';
+		echo '<ul><li><a href="';
 		echo bloginfo("rss_url");
-		echo '">rss</a></li>';
+		echo '">rss</a></li></ul>';
 	}
 
 }
