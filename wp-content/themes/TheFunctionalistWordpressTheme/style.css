@@ -1,0 +1,89 @@
+/*  
+Theme Name: The Functionalist (modified by amoslanka)
+Theme URI: http://gregponchak.com/
+Description: An experimental, functionalist, navigation based Wordpress theme built on clean code.
+Version: 0.1
+Author: Greg Ponchak
+Author URI: http://gregponchak.com/
+
+*/
+
+	/*Basic Setup*/
+	*{ list-style:none;padding:0;margin:0;text-decoration:none;outline:none; }
+	a { color:#000; background-color:#FFFF91; } /*#FF6*/
+	a:hover { color:#222; }
+	body { background:#fff; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:18px; color:#444; }
+	blockquote { padding:0px 10px 0px 35px; margin:10px 10px 10px 0; background: transparent url(images/quote.jpg) no-repeat 0px 5px; font-style:italic;}
+	.clear { clear:both; float: none!important; }
+	h1, h2, h3, h4, h5 { font-size:14px; }
+	h2 a { font-size:18px; }
+	p { margin:10px 0; }
+	small { font-size:10px; }
+	.spacer { padding-top:50px; }
+	
+	/*Layout*/
+/*	html, body, #container { height: 100%; }*/
+	#container { width:720px; padding:100px 100px 0 100px;}
+/*	body { margin:100px 50px 50px 100px; }*/
+	#footer { margin-top:50px; }
+	#footer .divider { margin:5px 0; }
+	
+	/*Index and Archive layout*/
+	.#selector {
+		background: url('WordpressTheme1.jpg') no-repeat scroll top left;
+		width: 800px;
+		height: 529px;
+	}post { margin-bottom:1.75em; }
+	
+	/*Logo*/
+	#title { position:relative;width:inherit; }
+	#title a { background:#222;padding:2px 0;color:#eee;float:left;font-size:12px;line-height:18px; }
+	#title a:hover { color:#eee;text-decoration:none; }
+	#title #titleright { background:url(right.jpg) no-repeat;height:22px;width:5px;float:left;display:block; }
+	#title #titleleft { background:url(left.jpg) no-repeat;height:22px;width:5px;float:left;display:block; }
+	.divider { height:3px; line-height:0px; margin:15px 0px;}
+	
+	/*Index and archive*/
+	.post-header { margin: 10px 0px;}
+	.date .permalink { padding-bottom:3px; display:block; float:left; margin-right: 6px; }
+/*	.date .text { padding-top: 13px; }*/
+	
+	/*Older/Newer nav links*/
+	.navigation { font-size: 12px; margin: 15px 0px;}
+	.navigation div {  }
+	
+	.navigate { padding:0 0 18px 0; }
+	.navigate b { font-weight:bold;color:#000;padding:0 10px 0 0;float:left; }
+	.navigate a { color:#999;padding:0 5px; }
+	.navigate a:hover { color:#222; }
+	ul#thePages { float:left; }
+	ul#thePages li { display:inline; }
+	ul#thePages li a { padding:0 10px 0 0;float:left; }
+	
+	/*hidden*/
+	.hidden { padding:10px;display:none; }
+	.hidden ul li { display:inline; }
+	.hidden ul li a { display:block;color:#222; }
+
+	/* Comments */
+/*	.post2 { padding:3px;}*/
+	ol.commentlist { padding:0;margin:0; }
+	ol.commentlist li { padding:5px;background:#fff; }
+	ol.commentlist li.alt { background:#eee; }
+	ol.commentlist p { margin:0; }
+	#commentform p { font-size:11px;line-height:18px; }
+	.commentmetadata { display:none; }
+	#submitButton { width:50px;height:22px;background:url(submit.jpg) no-repeat;border:0;padding:0;margin:0; }
+
+	/* Search */
+	#searchsubmit { width:50px;height:22px;background:url(search.jpg) no-repeat;border:0;padding:0;margin:0; }
+	#s { padding:2px 0; }
+	
+	/* Footer */
+/*	#footer { border-top: 1px solid #999; background-color:#ccc;}*/
+	#footer, #footer a { color: #999; text-transform: lowercase;}
+	#footer a { background-color:inherit; text-decoration:underline; }
+	#footer a:hover { color:#454545; }
+	#footer h2, #footer h3, #footer h4, #footer h5 { display:none; }
+	#footer li, #footer div { float: left; margin-right: 10px;}
+	

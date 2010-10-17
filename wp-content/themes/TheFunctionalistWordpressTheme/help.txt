@@ -1,0 +1,36 @@
+// Help File 
+// Theme: Minimal and Horizontal
+// Creator: Greg Ponchak – http://www.gregponchak.com
+
+// Installation
+
+To install this Wordpress theme, just drag the MinimalAndHorzontal folder into your
+"/wp-content/themes/" folder. From there, log into your Wordpress Administration 
+and go to Appearance > Themes. Click on the theme titled "Minimal and Horizontal".
+
+Tah dah! You have now successfully installed the theme.
+
+// Twitter Integration
+From the Wordpress Administration panel, go to Appearance > Editor. From 
+there, click on the link to the right called "Theme Functions". Within this file 
+there are two editing options. One is to add your Twitter account to the page. 
+
+To integrate your Twitter account with this theme, spot these lines in the code:
+
+***ENTER YOUR TWITTER ID BETWEEN THE SINGLE QUOTES-----|
+                                                       |    */
+$TwitterID = 'gregponchak';/* <------------------------|    */
+
+Where it says 'gregponchak', change that to your own Twitter ID and press the 
+"Update File" button at the bottom of the page. You are done! And your Twitter
+account is now integrated with this theme.
+
+[Alternatively, if you do not want to integrate a Twitter account with this theme,
+you can log into your Wordpress Administration and go to Appearance > Editor. From there
+scroll down and click the link entitled " Stylesheet (style.css)". Add this line of code 
+to the bottom of the file:
+
+#twitter_div { display:none; }
+
+]
+
