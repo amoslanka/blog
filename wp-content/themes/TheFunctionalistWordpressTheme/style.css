@@ -23,6 +23,7 @@ Author URI: http://gregponchak.com/
 	p { margin:10px 0; }
 	small { font-size:10px; }
 	.spacer { padding-top:50px; }
+	a img { border:none; }
 	
 	/*Layout*/
 /*	html, body, #container { height: 100%; }*/
