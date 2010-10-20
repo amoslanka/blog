@@ -2,3 +2,5 @@
 wp-config.php
 .htaccess
 backups/
+
+wp-content/uploads

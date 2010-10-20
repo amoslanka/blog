@@ -109,14 +109,14 @@ EOT;
 	if (!$alt) $alt = $t[0] . ' by ' . $rn[0] . ' on flickr';
 
     $r.=<<<EOT
-<div class="{$class}" style="width:{$width[0]}px">
+<span class="{$class}" style="width:{$width[0]}px">
 	<img src="{$image[0]}" width="100%" alt="{$alt}" />
-	<div class="caption">
+	<span class="caption">
 		<span class="title"><a href="{$u[0]}">{$t[0]}</a></span> 
     	<span class="author">by {$rn[0]} (<a href="http://flickr.com/photos/{$uid[0]}">{$un[0]}</a> on flickr)</span>
 		<span class="content">{$content}</span>
-</div>
-</div>
+</span>
+</span>
 EOT;
 
 // Original dump:
