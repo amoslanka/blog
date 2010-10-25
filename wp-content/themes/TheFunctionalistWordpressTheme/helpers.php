@@ -1,4 +1,6 @@
-
+<?php
+	remove_action( 'wp_head', 'feed_links_extra', 3 );
+?>
 
 <?php function print_pagination() { ?>
 	<div id="nav-below" class="navigation">
